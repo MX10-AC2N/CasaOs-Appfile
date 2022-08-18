@@ -62,9 +62,9 @@ At maximum
 `Container=2342`\
 `Protocol=TCP`
 - **Volumes**\
-`Container=/photoprism/storage  <=>  Host=Select the folder for PhotoPrism metadata`
+`Container=/photoprism/storage`  <=>  `Host=Select the folder for PhotoPrism metadata`
 Need large space available..\
-`Container=/photoprism/originals  <=>  Host=Select your main Photo folder (/mnt/My_Photo_Disk)`\
+`Container=/photoprism/originals`  <=>  `Host=Select your main Photo folder (/mnt/My_Photo_Disk)`\
 If you have more one main folder you can use this\
 `Container=/photoprism/originals/my_other_folder  <=>  Host=/mnt/my_other_folder`
 - **Environment Variables**\
