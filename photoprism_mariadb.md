@@ -21,11 +21,11 @@ On my server I have nextcloud installed with already a dedicated MariaDB docker.
 `bridge`
 - **Ports**
 `Host=3312`
-=> Select the port you want use`
+*Select the port you want use`
 `Container=3306`
 `Protocol=TCP`
 - **Volumes**
-`Host= Select the folder you  want use for photoprism database`
+`Host= Select the folder you  want use for photoprism database` /
 `Container=/config`
 - **Environment Variables**
 `PUID=1000`
@@ -33,10 +33,10 @@ On my server I have nextcloud installed with already a dedicated MariaDB docker.
 `TZ= Select your Time Zone`
 `MYSQL_ROOT_PASSWORD=ChangeMe`
 `MYSQL_DATABASE=photoprism`
-=> choose a name for database
+  *choose a name for database
 `MYSQL_USER=photoprism` => choose a user name for your database
 `MYSQL_PASSWORD=photoprism`
-=> choose a password
+  *choose a password
 
 - **Memory Limit**
 At maximum
