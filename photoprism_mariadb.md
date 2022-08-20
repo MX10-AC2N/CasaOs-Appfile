@@ -42,6 +42,7 @@ At maximum
 `unless-stopped`
 - **Container Hostname**\
 `MariadbPhotoprism`
+
 > **Click Install**
 
 > Now we will do the same to install PhotoPrism in order to use this database we just created.
@@ -91,4 +92,6 @@ At maximum
 `PhotoPrism`
 > **Click Install**
 
-****Enjoy..!****
+****Enjoy..!****\
+
+****For the indexing process to be faster I can only advise you to put all the other dockers you use on standby, keep only photoprism and of course mariadb for photoprism****
